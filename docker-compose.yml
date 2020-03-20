@@ -1,0 +1,11 @@
+version: '2'
+services:
+    proxy:
+        build: ./ProxyServer
+        user: nobody
+        command: bash -c "./ProxyServer"
+        volumes:
+            - ./ProxyServer:/var/log/erss
+        ports:
+            - "12345:12345"
+        tty: true

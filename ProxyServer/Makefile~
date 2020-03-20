@@ -1,0 +1,6 @@
+main:main.cpp Proxy.o
+    g++ -o main main.cpp Proxy.o -lpthread
+Proxy.o:Proxy.cpp
+    g++ -c -o Proxy.o Proxy.cpp
+clean:
+    -rm-f main *.o

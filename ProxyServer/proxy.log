@@ -1,0 +1,16 @@
+1: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:18:57 2020
+2: "CONNECT www.google.com:443 HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:18:59 2020
+2: Tunnel closed
+3: "CONNECT www.google.com:443 HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:18:59 2020
+4: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:19:05 2020
+5: "GET http://www.dukenotexist.com/ HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:19:05 2020
+5: not in cache
+5: Requesting GET http://www.dukenotexist.com/ HTTP/1.1 from www.dukenotexist.com
+5: Responding ERROR 400-Bad Request
+6: "GET http://www.dukenotexist.com/favicon.ico HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:19:05 2020
+6: not in cache
+6: Requesting GET http://www.dukenotexist.com/favicon.ico HTTP/1.1 from www.dukenotexist.com
+6: Responding ERROR 400-Bad Request
+7: "CONNECT www.google.com:443 HTTP/1.1" from 10.194.142.163 @ Fri Mar 20 00:19:50 2020
+1: Tunnel closed
+4: Tunnel closed
